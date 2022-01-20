@@ -1,0 +1,52 @@
+* {
+    font-family: 'Dongle', sans-serif;
+    font-size: 20px;
+}
+body {
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1078px 789px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search input {
+    width: 30%;
+    height: 30px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+.search button {
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.weatherContainer  {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    margin-top: 20%;
+    opacity: 0.8;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    margin: 5px;
+}
+
+.city, .date, .weather, h1 {
+    font-size: 30px;
+}
